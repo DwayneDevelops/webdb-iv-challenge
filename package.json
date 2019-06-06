@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.17.3",
+    "logger": "^0.0.1",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "name": "webdb-iv-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DwayneDevelops/webdb-iv-challenge.git"
+  },
+  "author": "DwayneDevelops <DwayneDevelops@gmail.com>",
+  "license": "MIT",
+  "description": "## Topics",
+  "bugs": {
+    "url": "https://github.com/DwayneDevelops/webdb-iv-challenge/issues"
+  },
+  "homepage": "https://github.com/DwayneDevelops/webdb-iv-challenge#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": []
+}
